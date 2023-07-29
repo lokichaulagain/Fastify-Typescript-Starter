@@ -1,0 +1,28 @@
+{
+  "name": "note-nexus-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/server.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "start": "nodemon build/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/cors": "^8.2.1",
+    "@fastify/multipart": "^7.6.0",
+    "@sinclair/typebox": "^0.28.9",
+    "@typegoose/typegoose": "^11.0.2",
+    "dotenv": "^16.0.3",
+    "env-schema": "^5.2.0",
+    "fastify": "^4.16.3",
+    "http-errors": "^2.0.0",
+    "mongoose": "^7.0.5",
+    "npm": "^9.6.5"
+  },
+  "devDependencies": {
+    "@types/http-errors": "^2.0.1"
+  }
+}
